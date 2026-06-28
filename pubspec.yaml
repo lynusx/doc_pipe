@@ -1,17 +1,18 @@
 name: doc_pipe
-description: 一键式文档注释处理管道 —— 将多个文档处理子命令按固定顺序串行执行，
-  统一接收输入路径，自动映射各阶段参数。
+description: >-
+  一键式文档注释处理管道 —— 将多个文档处理子命令按固定顺序串行执行，
+  统一接收输入路径，自动映射各阶段参数。各子命令亦可单独作为 CLI 运行，
+  共享同一套参数解析 / 文件收集 / 写盘 / dry-run 骨架。
 version: 1.0.0
+publish_to: none
 
 environment:
   sdk: ^3.11.1
 
-# Add regular dependencies here.
 dependencies:
   args: ^2.7.0
   path: ^1.9.1
   analyzer: ^6.4.1
-  logger: ^2.7.0
 
 dev_dependencies:
   lints: ^6.0.0
