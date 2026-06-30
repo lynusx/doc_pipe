@@ -1,3 +1,20 @@
+# Dart/pub
 # https://dart.dev/guides/libraries/private-files
-# Created by `dart pub`
 .dart_tool/
+pubspec.lock
+
+# Build output
+build/
+doc/api/
+
+# Pipeline state files (generated at runtime)
+.doc_pipeline_state.json
+.doc_pipeline_state.json.tmp
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
